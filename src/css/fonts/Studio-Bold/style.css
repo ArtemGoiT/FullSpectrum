@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Studio';
+    src: local('Studio Bold'), local('Studio-Bold'),
+        url('Studio-Bold.woff2') format('woff2'),
+        url('Studio-Bold.woff') format('woff'),
+        url('Studio-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
