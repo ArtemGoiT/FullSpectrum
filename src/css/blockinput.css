@@ -65,6 +65,7 @@
   margin-top: 15px;
 }
 .create-input {
+  color: #141414;
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 30px;
   width: 295px;
@@ -75,7 +76,6 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   text-align: left;
-  color: #141414;
   margin-top: 15px;
   padding-left: 16px;
 }
@@ -104,12 +104,4 @@
   text-transform: uppercase;
   border-radius: 30px;
   background: rgb(87, 111, 53);
-}
-.img-socia {
-}
-.social-item {
-}
-.social-list {
-}
-.social-link {
 }
