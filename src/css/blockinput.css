@@ -117,16 +117,48 @@
   background: #576f35;
 }
 .social-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-top: 14px;
 }
 .social-list {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  display: flex;
 }
 .social-link {
 }
 .img-recep {
-  border-radius: 15px;
-  width: 295px;
-  height: 273px;
-  padding-top: 40px;
-  padding-left: 20px;
+  border-radius: 17px;
+}
+.imagi {
   color: rgb(20, 20, 20, 0.3);
+}
+.follow {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.pictirs {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.znak {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  padding-left: 8px;
+  padding-right: 8px;
 }
