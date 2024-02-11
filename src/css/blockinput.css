@@ -3,7 +3,6 @@
 }
 
 .construction-input {
-  align-items: center;
   padding-top: 80px;
 }
 
@@ -32,6 +31,12 @@
 }
 
 .input {
+  border-radius: 30px;
+  background: rgb(251, 251, 251);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  padding-bottom: 40px;
 }
 
 .ordering {
@@ -43,6 +48,8 @@
   text-transform: uppercase;
   color: #141414;
   padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .redd {
@@ -54,12 +61,49 @@
 }
 
 .forma-iputa {
+  margin-left: 20px;
+  margin-top: 15px;
 }
 .create-input {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  width: 295px;
+  height: 46px;
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #141414;
+  margin-top: 15px;
+  padding-left: 16px;
 }
 .textarea {
+  color: #141414;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 15px;
+  width: 295px;
+  height: 91px;
+  margin-bottom: 20px;
+  resize: none;
+  text-align: left;
+  padding-top: 14px;
 }
 .form-btn {
+  padding: 16px 128px;
+  width: 295px;
+  height: 50px;
+  color: rgb(251, 251, 251);
+  font-family: Studio Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-transform: uppercase;
+  border-radius: 30px;
+  background: rgb(87, 111, 53);
 }
 .img-socia {
 }
