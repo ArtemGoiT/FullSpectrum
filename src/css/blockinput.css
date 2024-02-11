@@ -1,0 +1,71 @@
+.input-block {
+  background: rgb(122, 49, 69);
+}
+
+.construction-input {
+  align-items: center;
+  padding-top: 80px;
+}
+
+.Freh-text {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.04167;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.transparency {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.boxer {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding-top: 20px;
+}
+
+.input {
+}
+
+.ordering {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  padding-top: 40px;
+}
+
+.redd {
+  color: #7a3145;
+}
+
+.grrenn {
+  color: #576f35;
+}
+
+.forma-iputa {
+}
+.create-input {
+}
+.textarea {
+}
+.form-btn {
+}
+.img-socia {
+}
+.social-item {
+}
+.social-list {
+}
+.social-link {
+}
