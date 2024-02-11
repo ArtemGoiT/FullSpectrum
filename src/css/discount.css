@@ -3,8 +3,9 @@
 }
 
 .green-element {
-  width: 842px;
-  height: 86px;
+  width: 355px;
+  height: 102px;
+  border-radius: 12px;
   color: #576F35;
 }
 
