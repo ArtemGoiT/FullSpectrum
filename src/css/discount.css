@@ -1,0 +1,22 @@
+.discount {
+    padding: 20px;
+}
+
+.green-element {
+  width: 842px;
+  height: 86px;
+  color: #576F35;
+}
+
+.disc-title {
+  font-family: Studio Pro Bold;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 105%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+.title-accent {
+  color: #fbfbfb;
+}
