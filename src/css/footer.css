@@ -1,0 +1,98 @@
+.footer {
+  background: rgb(122, 49, 69);
+}
+.container {
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+.icon-footer {
+  width: 18px;
+  height: 18px;
+  fill: #fbfbfb;
+}
+
+.logo-text {
+  width: 168px;
+  height: 15px;
+  fill: #fbfbfb;
+}
+
+.footer-text {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding-right: 60px;
+  padding-top: 14px;
+}
+
+.footer-link {
+}
+.footer-nav {
+  padding-top: 40px;
+}
+.footer-item {
+}
+.footer-list {
+  padding: 14px;
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
+.footer-nav-link {
+}
+.footer-adress {
+}
+.address {
+}
+.number {
+  padding-top: 40px;
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
+
+.footer-polic {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33333;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-simbol {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33333;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-privat {
+  padding-top: 100px;
+  display: flex;
+}
+.footer-green {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33333;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  padding-left: 31px;
+}
