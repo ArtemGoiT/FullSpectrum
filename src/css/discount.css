@@ -1,22 +1,42 @@
 .discount {
-    padding: 20px;
+  padding: 30px 20px;
+  margin: 0 auto;
 }
 
-.green-element {
-  width: 842px;
-  height: 86px;
-  color: #576F35;
+.discount-container {
+  min-width: 320px;
+  max-width: 375px;
+  background-color: #fbfbfb;
 }
 
 .disc-title {
-  font-family: Studio Pro Bold;
+  font-family: 'Studio Pro Bold', sans-serif;
   font-weight: 700;
-  font-size: 76px;
+  font-size: 48px;
   line-height: 105%;
   letter-spacing: -0.01em;
+  text-align: left;
   text-transform: uppercase;
   color: #141414;
 }
 .title-accent {
+  width: 355px;
+  height: 100%;
+  padding: 0 10px;
+  border-radius: 12px;
+  background-color: #576f35;
   color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .discount-container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .discount-container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
 }
