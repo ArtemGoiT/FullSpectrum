@@ -1,0 +1,68 @@
+.blockwooman {
+}
+.block-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #576f35;
+}
+.block-image {
+  background-color: #7a3145;
+}
+.card-img {
+  display: block;
+  width: 355px;
+  padding: 20px;
+  border-radius: 48px;
+}
+.block-steps {
+  padding-left: 20px;
+}
+.block-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.block-accent {
+  color: rgba(251, 251, 251, 0.3);
+}
+.block-p {
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.block-list {
+}
+.block-item {
+}
+.block-zone {
+}
+.field-p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+}
+
+@media only screen and (min-width: 768px) {
+  .block-container {
+    max-width: 768px;
+  }
+  .card-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .block-container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+}
