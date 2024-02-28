@@ -1,0 +1,154 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 24px;
+  background-color: #576f35;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    padding-top: 32px;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header {
+    padding-bottom: 77px;
+  }
+}
+
+.div-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  gap: 4px;
+  fill: #fbfbfb;
+}
+
+.logo-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.logo-text {
+  width: 148px;
+  height: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-text {
+    width: 168px;
+    height: 15px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .logo-text {
+    margin-right: auto;
+  }
+}
+
+.nav-list {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 8px;
+
+    color: #fbfbfb;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-transform: none;
+  }
+}
+
+.nav-list-item {
+}
+.nav-btn {
+}
+.nav-link {
+}
+
+.mob-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+  .mob-btn {
+    display: none;
+  }
+}
+
+.burger-btn {
+  fill: #fbfbfb;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .burger-btn {
+    fill: #fbfbfb;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+}
+
+.shop-link {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .shop-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fbfbfb;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-transform: none;
+  }
+}
