@@ -30,6 +30,12 @@
   justify-content: space-between;
 }
 
+.logo,
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
 .logo {
   gap: 4px;
   fill: #fbfbfb;
@@ -61,7 +67,7 @@
 
 @media only screen and (min-width: 1280px) {
   .logo-text {
-    margin-right: auto;
+    margin-right: 397px;
   }
 }
 
@@ -73,8 +79,9 @@
   .nav-list {
     display: flex;
     align-items: center;
-    margin-right: auto;
     gap: 8px;
+
+    margin-right: auto;
 
     color: #fbfbfb;
     font-size: 16px;
@@ -90,6 +97,23 @@
 .nav-list-item {
 }
 .nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px;
+
+  color: #fbfbfb;
+  font-size: 16px;
+  font-style: normal;
+
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  border-radius: 12px;
+
+  white-space: nowrap;
+
+  transition: color 250ms linear, background-color 250ms linear,
+    border-color 250ms linear;
 }
 .nav-link {
 }
@@ -98,9 +122,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  padding: 0;
-  border: 0;
+
+  margin-left: auto;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -110,17 +133,16 @@
 }
 
 .burger-btn {
-  fill: #fbfbfb;
+  stroke: #fbfbfb;
   width: 32px;
   height: 32px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
   .burger-btn {
-    fill: #fbfbfb;
     width: 40px;
     height: 40px;
   }
@@ -138,17 +160,32 @@
 
 @media only screen and (min-width: 1280px) {
   .shop-link {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+
+    padding: 16px 32px;
+    margin-left: 20px;
 
     color: #fbfbfb;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
-    font-family: 'Inter Tight', sans-serif;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: -1px;
-    text-transform: none;
+
+    background-color: #7a3145;
+
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 30px;
+
+    white-space: nowrap;
+
+    transition: color 250ms linear, background-color 250ms linear,
+      border-color 250ms linear;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .shop-link:is(:hover, :focus) {
+    color: #7a3145;
+    background-color: #fbfbfb;
   }
 }
