@@ -216,6 +216,8 @@
   .img-socia {
   }
   .pictirs {
+    display: flex;
+    justify-content: center;
   }
 
   .img-recep {
@@ -225,6 +227,7 @@
   .follow {
   }
   .social-item {
+    padding-left: 50px;
   }
   .social-list {
   }
