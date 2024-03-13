@@ -167,3 +167,68 @@
   padding-left: 8px;
   padding-right: 8px;
 }
+
+@media only screen and (min-width: 768px) {
+  .input-block {
+  }
+  .construction-input {
+  }
+  .container {
+  }
+  .Freh-text {
+    padding-right: 96px;
+    width: 640px;
+  }
+  .transparency {
+  }
+  .boxer {
+    padding-right: 96px;
+    width: 640px;
+  }
+  .input {
+  }
+  .ordering {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08333;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+  }
+  .redd {
+  }
+  .grrenn {
+  }
+  .forma-iputa {
+    padding: 50px 100px 50px 100px;
+  }
+  .create-input {
+  }
+  .textarea {
+  }
+  .form-btn {
+  }
+  .wooman {
+  }
+  .img-socia {
+  }
+  .pictirs {
+  }
+  .imagi {
+  }
+  .img-recep {
+  }
+  .follow {
+  }
+  .social-item {
+  }
+  .social-list {
+  }
+  .social-link {
+  }
+  .znak {
+  }
+}
