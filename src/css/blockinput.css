@@ -1,5 +1,6 @@
 .input-block {
   background: rgb(122, 49, 69);
+  padding-bottom: 80px;
 }
 
 .construction-input {
@@ -110,9 +111,7 @@
 }
 .wooman {
   background: rgb(122, 49, 69);
-  padding-left: 20px;
   padding-top: 20px;
-  padding-right: 20px;
 }
 .img-socia {
   border-radius: 30px;
@@ -225,6 +224,8 @@
     height: 273px;
   }
   .follow {
+    padding-left: 50px;
+    padding-top: 50px;
   }
   .social-item {
     padding-left: 50px;
