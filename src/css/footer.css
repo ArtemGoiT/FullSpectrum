@@ -102,6 +102,9 @@
   .container {
   }
   .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .icon-footer {
   }
@@ -111,27 +114,74 @@
   }
   .footer-text {
     width: 265px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
   }
   .footer-nav {
+    padding: 0;
   }
   .footer-item {
   }
   .footer-list {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
+    padding-right: 25px;
   }
   .footer-nav-link {
   }
   .footer-adress {
   }
   .address {
+    padding-left: 489px;
   }
   .number {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
   }
   .footer-privat {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+    padding-bottom: 32px;
   }
   .footer-polic {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
   }
   .footer-simbol {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
   }
   .footer-green {
+    padding-left: 284px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
   }
 }
