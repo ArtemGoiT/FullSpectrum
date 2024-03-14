@@ -211,6 +211,7 @@
   .wooman {
   }
   .img-socia {
+    margin-top: 25px;
   }
   .pictirs {
     display: flex;
@@ -227,6 +228,69 @@
   }
   .social-item {
     padding-left: 50px;
+  }
+  .social-list {
+  }
+  .social-link {
+  }
+  .znak {
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .input-block {
+  }
+  .construction-input {
+  }
+  .container {
+  }
+  .Freh-text {
+    width: 751px;
+  }
+  .transparency {
+  }
+  .boxer {
+    width: 742px;
+  }
+  .input {
+    width: 529px;
+    height: 534px;
+    margin: 0;
+  }
+  .ordering {
+  }
+  .redd {
+  }
+  .grrenn {
+  }
+  .forma-iputa {
+  }
+  .create-input {
+  }
+  .textarea {
+  }
+  .form-btn {
+  }
+  .wooman {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap: 24px;
+  }
+  .img-socia {
+    width: 527px;
+    height: 534px;
+    margin: 0;
+  }
+  .pictirs {
+  }
+  .imagi {
+  }
+  .img-recep {
+  }
+  .follow {
+  }
+  .social-item {
   }
   .social-list {
   }
