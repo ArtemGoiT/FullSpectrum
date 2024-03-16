@@ -97,3 +97,35 @@
   .price {
   }
 }
+@media only screen and (min-width: 1280px) {
+  .organik-container {
+  }
+  .organik-text {
+  }
+  .container {
+  }
+  .organik-vegetelbs {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    width: 508px;
+  }
+  .vegetables {
+  }
+  .our-organik {
+  }
+  .card-box {
+  }
+  .list-card {
+  }
+  .item-card {
+  }
+  .name_vegetables {
+  }
+  .price {
+  }
+}

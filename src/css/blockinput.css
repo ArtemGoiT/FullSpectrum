@@ -195,7 +195,6 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #141414;
-    width: 428px;
   }
   .redd {
   }
@@ -211,8 +210,8 @@
   .form-btn {
   }
   .wooman {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 38px;
+    padding-right: 38px;
   }
   .img-socia {
     margin-top: 25px;
@@ -229,6 +228,12 @@
   .follow {
     padding-left: 50px;
     padding-top: 50px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
   }
   .social-item {
     padding-left: 50px;
@@ -254,12 +259,26 @@
   .container {
   }
   .Freh-text {
-    width: 751px;
+    width: 772px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    padding-right: 0;
   }
   .transparency {
   }
   .boxer {
     width: 742px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #fbfbfb;
+    padding-right: 0;
   }
   .input {
     width: 529px;
@@ -286,6 +305,8 @@
     flex-wrap: wrap;
     padding-top: 50px;
     gap: 24px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .img-socia {
     width: 527px;

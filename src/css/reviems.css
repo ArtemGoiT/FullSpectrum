@@ -177,10 +177,25 @@
   .container {
   }
   .title-text {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    width: 561px;
+    padding-right: 0;
   }
   .green-title {
   }
   .paragraph-revievs {
+    padding-right: 0;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #141414;
   }
   .construction-riviems {
   }
