@@ -1,4 +1,4 @@
-.organik {
+.organik-container {
   background: #7a3145;
 }
 .organik-text {
@@ -27,14 +27,12 @@
   padding-bottom: 40px;
 }
 .card-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
 }
 .list-card {
   padding-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .item-card {
   border-radius: 40px;
@@ -88,12 +86,11 @@
     width: 626px;
   }
   .card-box {
-    display: flex;
-    flex-wrap: wrap;
   }
   .list-card {
   }
   .item-card {
+    margin-bottom: 28px;
   }
   .name_vegetables {
   }

@@ -195,6 +195,7 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #141414;
+    width: 428px;
   }
   .redd {
   }
@@ -210,6 +211,8 @@
   .form-btn {
   }
   .wooman {
+    padding-left: 70px;
+    padding-right: 70px;
   }
   .img-socia {
     margin-top: 25px;
@@ -231,6 +234,12 @@
     padding-left: 50px;
   }
   .social-list {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
   }
   .social-link {
   }
