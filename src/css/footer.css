@@ -14,7 +14,7 @@
 
 .logo-text2 {
   width: 168px;
-  height: 15px;
+  height: 16px;
   fill: #fbfbfb;
 }
 
@@ -123,6 +123,8 @@
   .footer-link {
   }
   .logo-text2 {
+    width: 194px;
+    height: 18px;
   }
   .footer-text {
     width: 265px;
