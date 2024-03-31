@@ -4,13 +4,6 @@
   flex-direction: column;
   align-items: center;
   background: #576f35;
-  padding-top: 100px;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-section {
-    padding-top: 122px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -117,60 +110,15 @@
   }
 }
 
-.images-container {
-  background-image: linear-gradient(
-      rgba(20, 20, 20, 0.2),
-      rgba(20, 20, 20, 0.2)
-    ),
-    url(/src/img/hero/vegetable-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 160px 0;
-}
-@media screen and (min-width: 375px) {
-  .images-container {
-    padding: 185px 0;
-  }
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .images-container {
-    background-image: url(/src/img/hero/vegetable-mob2x.jpg);
-  }
-}
 @media screen and (min-width: 768px) {
-  .images-container {
-    background-image: url(/src/img/hero/vegetable-tab.jpg);
-    max-width: 768px;
-    padding: 270px 0;
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .images-container {
-      background-image: url(/src/img/hero/vegetable-tab2x.jpg);
-    }
+  .product {
+    width: 768px;
+    height: 539px;
   }
 }
-
 @media screen and (min-width: 1280px) {
-  .images-container {
+  .product {
     width: 650px;
     height: 800px;
-    background-image: url(/src/img/hero/vegetable.jpg);
-    max-width: none;
-    background-size: cover;
-    background-origin: padding-box;
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .images-container {
-      background-image: url(/src/img/hero/vegetable2x.jpg);
-    }
   }
 }

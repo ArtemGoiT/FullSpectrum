@@ -37,7 +37,6 @@
 }
 
 .logo {
-  gap: 4px;
   fill: #fbfbfb;
 }
 
@@ -50,6 +49,9 @@
   .logo-icon {
     width: 18px;
     height: 18px;
+  }
+  .logo {
+    gap: 8px;
   }
 }
 
@@ -119,9 +121,6 @@
 }
 
 .mob-btn {
-  width: 32px;
-  height: 32px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,15 +136,20 @@
 
 .burger-btn {
   stroke: #fbfbfb;
-  width: 32px;
-  height: 32px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.open-btn-icon {
+  stroke: #fbfbfb;
+  width: 32px;
+  height: 32px;
+}
+
 @media only screen and (min-width: 768px) {
-  .burger-btn {
+  .open-btn-icon {
     width: 40px;
     height: 40px;
   }
