@@ -1,42 +1,68 @@
 .discount {
-  padding: 30px 20px;
-  margin: 0 auto;
+  padding: 80px 10px 80px 10px;
 }
 
 .discount-container {
-  min-width: 320px;
-  max-width: 375px;
-  background-color: #fbfbfb;
+  border-radius: 12px;
+  width: 355px;
+  height: 102px;
+  background: #576f35;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
 }
 
 .disc-title {
-  font-family: 'Studio Pro Bold', sans-serif;
-  font-weight: 700;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
   font-size: 48px;
-  line-height: 105%;
+  line-height: 1.04167;
   letter-spacing: -0.01em;
-  text-align: left;
   text-transform: uppercase;
-  color: #141414;
-}
-.title-accent {
-  width: 355px;
-  height: 100%;
-  padding: 0 10px;
-  border-radius: 12px;
-  background-color: #576f35;
   color: #fbfbfb;
 }
 
+.vitamins {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04167;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  padding: 0 10px 0 10px;
+}
 @media only screen and (min-width: 768px) {
   .discount-container {
     max-width: 768px;
+    width: 736px;
+    height: auto;
+  }
+  .discount {
+    padding: 100px 16px;
+  }
+  .vitamins {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.09375;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+  .disc-title {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.09375;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
   }
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1280px) {
   .discount-container {
-    max-width: 1158px;
+    max-width: 1280px;
     padding: 0 15px;
   }
 }

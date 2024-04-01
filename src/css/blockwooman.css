@@ -1,8 +1,6 @@
 .blockwooman {
 }
 .block-container {
-  display: flex;
-  flex-direction: column;
   background-color: #576f35;
 }
 .block-image {
@@ -13,9 +11,13 @@
   border-radius: 30px;
   width: 335px;
   height: 450px;
+  margin: auto;
 }
 .block-steps {
-  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 20px;
 }
 .block-title {
   font-family: var(--font-family);
@@ -25,8 +27,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  padding-bottom: 20px;
 }
 .block-accent {
   color: rgba(251, 251, 251, 0.3);
@@ -40,7 +41,6 @@
 }
 .block-list {
   padding-top: 40px;
-  padding-bottom: 80px;
 }
 .block-item {
   border-radius: 15px;
@@ -94,16 +94,43 @@
 
 @media only screen and (min-width: 768px) {
   .block-container {
-    max-width: 768px;
   }
   .card-img {
-    width: 100%;
+    border-radius: 30px;
+    width: 640px;
+    height: 640px;
+  }
+  .block-image {
+  }
+  .block-steps {
+    padding: 100px 159px;
+  }
+  .field-p {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .block-item {
+    border-radius: 15px;
+    padding: 12px 27px 12px 24px;
+    width: 450px;
+    height: 76px;
   }
 }
-
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1280px) {
   .block-container {
-    max-width: 1158px;
+    max-width: 1280px;
     padding: 0 15px;
+  }
+  .blockwooman {
+  }
+
+  .card-img {
+    width: 430px;
+    height: 559px;
+  }
+
+  .block-steps {
+    padding: 0;
   }
 }
