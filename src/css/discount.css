@@ -64,5 +64,20 @@
   .discount-container {
     max-width: 1280px;
     padding: 0 15px;
+    margin: 0;
+    width: 808px;
+  }
+
+  .discount {
+    padding: 100px;
+  }
+  .title-accent {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 1.05263;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
   }
 }

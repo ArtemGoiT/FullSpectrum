@@ -14,11 +14,7 @@
     gap: 28px;
     flex-direction: row;
     padding-top: 0;
-    position: absolute; /* Абсолютное позиционирование, чтобы разместить Hero-секцию над хедером */
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
+    margin-top: -170px;
   }
 }
 .hero-container {
