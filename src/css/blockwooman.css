@@ -7,9 +7,12 @@
 }
 .block-image {
   background-color: #7a3145;
-  padding-top: 40px;
+  padding: 40px 20px;
 }
 .card-img {
+  border-radius: 30px;
+  width: 335px;
+  height: 450px;
 }
 .block-steps {
   padding-left: 20px;
@@ -29,23 +32,64 @@
   color: rgba(251, 251, 251, 0.3);
 }
 .block-p {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 129%;
-  letter-spacing: -0.02em;
+  line-height: 1.28571;
   color: #fbfbfb;
 }
 .block-list {
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 .block-item {
+  border-radius: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 335px;
+  height: 76px;
+  background: #fbfbfb;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+  align-items: center;
 }
+
 .block-zone {
 }
 .field-p {
-  font-weight: 400;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
   font-size: 12px;
-  line-height: 117%;
+  line-height: 1.16667;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
+}
+.circle {
+  width: 42px; /* Устанавливаем ширину */
+  height: 42px; /* Устанавливаем высоту */
+  border-radius: 100%; /* Устанавливаем радиус скругления (50% от ширины/высоты, чтобы сделать круг) */
+  background-color: #7a3145; /* Устанавливаем цвет фона */
+  display: flex; /* Включаем flexbox для центрирования содержимого */
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  align-items: center; /* Центрируем содержимое по вертикали */
+  color: white; /* Устанавливаем цвет текста */
+  font-size: 18px; /* Устанавливаем размер шрифта */
+  padding: 24px;
+  box-shadow: 0 0 0 5px rgba(122, 49, 69, 0.3);
+}
+.number {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.black {
+  font-weight: 700;
+  color: #141414;
 }
 
 @media only screen and (min-width: 768px) {
