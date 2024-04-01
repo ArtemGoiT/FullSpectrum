@@ -119,8 +119,8 @@
 }
 @media only screen and (min-width: 1280px) {
   .block-container {
-    max-width: 1280px;
-    padding: 0 15px;
+    display: flex;
+    justify-content: center;
   }
   .blockwooman {
   }
@@ -131,6 +131,16 @@
   }
 
   .block-steps {
-    padding: 0;
+    padding: 100px 100px 100px 100px;
+  }
+  .block-image {
+    padding: 100px;
+  }
+  .block-p {
+    width: 450px;
+  }
+
+  .block-title {
+    width: 450px;
   }
 }
