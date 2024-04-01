@@ -14,6 +14,11 @@
     gap: 28px;
     flex-direction: row;
     padding-top: 0;
+    position: absolute; /* Абсолютное позиционирование, чтобы разместить Hero-секцию над хедером */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
   }
 }
 .hero-container {
@@ -56,7 +61,7 @@
     padding-top: 253px;
     gap: 128px;
     padding-top: 238px;
-    padding-right: 46px;
+    padding-right: 28px;
     padding-left: 100px;
   }
 }
@@ -84,7 +89,14 @@
 
 @media screen and (min-width: 1280px) {
   .hero-title {
-    max-width: 502px;
+    width: 502px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
   }
 }
 
