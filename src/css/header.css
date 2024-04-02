@@ -64,8 +64,8 @@
 
 @media only screen and (min-width: 768px) {
   .logo-text {
-    width: 168px;
-    height: 15px;
+    width: 194px;
+    height: 18px;
   }
 }
 
@@ -118,6 +118,9 @@
 
   transition: color 250ms linear, background-color 250ms linear,
     border-color 250ms linear;
+}
+.nav-btn:is(:hover, :focus) {
+  background: #7a3145;
 }
 .nav-link {
 }
