@@ -8,7 +8,7 @@
   padding: 40px 20px;
 }
 .card-img {
-  border-radius: 30px;
+  border-radius: 40px;
   width: 335px;
   height: 450px;
   margin: auto;
@@ -96,7 +96,6 @@
   .block-container {
   }
   .card-img {
-    border-radius: 30px;
     width: 640px;
     height: 640px;
   }

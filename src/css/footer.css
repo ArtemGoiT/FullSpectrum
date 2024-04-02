@@ -45,7 +45,8 @@
   color: #fbfbfb;
   padding-bottom: 14px;
 }
-.footer-nav-link {
+.footer-nav-link:is(:hover, :focus) {
+  color: rgb(51, 197, 21);
 }
 .footer-adress {
   padding-top: 40px;

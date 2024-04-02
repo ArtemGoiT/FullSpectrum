@@ -79,6 +79,9 @@
   margin-top: 15px;
   padding-left: 16px;
 }
+.create-input:is(:hover, :focus) {
+  border: 1px solid #3cbc81;
+}
 .textarea {
   color: #141414;
   border: 1px solid rgba(20, 20, 20, 0.2);
@@ -107,6 +110,10 @@
   justify-content: center;
   display: flex;
 }
+.form-btn:is(:hover, :focus) {
+  background-color: #7a3145;
+  color: #3cbc81;
+}
 .wooman {
   background: rgb(122, 49, 69);
   padding-top: 20px;
@@ -133,7 +140,8 @@
   color: #fbfbfb;
   display: flex;
 }
-.social-link {
+.social-link:is(:hover, :focus) {
+  color: #7a3145;
 }
 .img-recep {
   border-radius: 17px;
