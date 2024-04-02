@@ -1,20 +1,28 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const openMenuBtn = document.querySelector('[data-menu-open]');
-  const closeMenuBtn = document.querySelector('[data-menu-close]');
-  const menu = document.querySelector('[data-menu]');
-  const body = document.body;
+  const overlay = document.querySelector('.mobail-overley');
+  const toggleButton = document.querySelector('[data-menu-open]');
+  const closeButton = document.querySelector('[data-menu-close]');
 
-  openMenuBtn.addEventListener('click', toggleMenu);
-  closeMenuBtn.addEventListener('click', toggleMenu);
+  // Функция для открытия бургер-меню
+  function openMenu() {
+    overlay.classList.add('is-hidden');
+  }
 
-  document.addEventListener('click', function (event) {
-    // Проверяем, был ли клик вне области меню и открыто ли меню
-    if (!menu.contains(event.target) && !menu.classList.contains('is-hidden')) {
-      menu.classList.add('is-hidden'); // Закрываем меню
+  // Функция для закрытия бургер-меню
+  function closeMenu() {
+    overlay.classList.remove('is-hidden');
+  }
+
+  // Обработчик клика по кнопке открытия
+  toggleButton.addEventListener('click', openMenu);
+
+  // Обработчик клика по кнопке закрытия
+  closeButton.addEventListener('click', closeMenu);
+
+  // Обработчик клика вне меню для закрытия
+  overlay.addEventListener('click', function (event) {
+    if (event.target === overlay) {
+      closeMenu();
     }
   });
-
-  function toggleMenu() {
-    menu.classList.toggle('is-hidden');
-  }
 });
