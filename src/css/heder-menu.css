@@ -41,10 +41,10 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-top: 128px;
+  margin-top: 240px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 123px;
+  margin-bottom: 340px;
   color: #121212;
 }
 
@@ -54,10 +54,13 @@
   padding: 12px 16px;
   width: 115px;
   height: 42px;
+  transition: background-color 0.3s, border-color 0.3s;
+  color: #fff;
 }
 .mob-nav-list-item:is(:hover, :focus) {
   transform: scale(1.07);
-  background: #fbfbfb;
+  background-color: white; /* Белый фон меню при наведении */
+  border-color: white;
 }
 .mob-nav-link {
   font-family: 'Inter Tight', sans-serif;
@@ -66,14 +69,43 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #fbfbfb;
+  border-color: #7a3145;
 }
+
 .mob-nav-link:is(:hover, :focus) {
   color: #7a3145;
 }
 .mob-shop {
+}
+.mob-new-shop {
   border-radius: 30px;
   padding: 16px 41px;
-  width: 155px;
-  height: 50px;
+  background: #fbfbfb;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #7a3145;
+}
+@media only screen and (min-width: 768px) {
+  .mobile-menu {
+    width: 351px;
+  }
+  .mob-nav-link {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+  .mob-nav-list-item {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px 21px;
+    width: 119px;
+    height: 44px;
+  }
 }
